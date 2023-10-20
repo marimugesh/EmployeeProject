@@ -35,7 +35,7 @@ public class EmployeeController {
 	public List<Employee> getEmps() {
 		return es.getEmps();
 	}
-	@PostMapping(path="/setSal")
+	@PostMapping(path="/setSalss")
 	public String setSal(@RequestBody List<Employee> e) throws SalaryNotValidException {
 		return es.setSal(e);
 	}
